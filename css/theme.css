@@ -1,0 +1,86 @@
+body{
+	margin:0;
+	padding:0;
+}
+		
+#mv-head{
+	height:5vw;
+	width:100vw;
+	background-color: rgba(31,43,64,.8);
+	position: fixed;
+	z-index:999;
+}
+		
+#mv-head span{
+	font-size:3vw;
+	color:white;
+	position: absolute;
+	margin:.75vw;
+	font-family: 'Lato', Sans-Serif;
+}
+		
+#mv-head div{
+	position:absolute;
+	right:2vw;
+	top:1.5vw;
+	font-size:1.5vw;
+}
+
+#mv-head a{
+	margin-right:1vw;
+	text-decoration:none;
+	color:white;
+	font-family: 'Catamaran', Sans-Serif;
+}
+
+#mv-home img{
+	max-width:100vw;
+}
+		
+#mv-home span{
+	max-width:80vw;
+	position:absolute;
+	top:28.125vw;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+	font-family: 'Lato', Sans-Serif;
+	color:white;
+	font-size:2.5vw;
+	line-height:4vw;
+}
+
+#icons > div{
+	margin-top:-4px;
+	width:33.33%;
+	height:50vw;
+	/*background-color:rgba(31,43,64,.7);*/
+}
+
+#icons .left{
+	float:left;
+}
+
+#icons .right{
+	float:right;
+}
+
+#icons .center{
+	background-color:rgba(255,172,140,.7);
+	float:left;
+}
+
+#quote{
+	font-family: 'Lato', Sans-Serif;
+	font-size:2.5vw;
+	margin-top:50vw;
+	padding:5vw 8vw 5vw;
+	background-color:#316bcc;
+	color:white;
+}
+/*
+font-family: 'Lato', Sans-Serif;
+font-size: 46px;
+font-family: 'Catamaran', Sans-Serif;
+font-size: 16px;
+*/
